@@ -1,0 +1,98 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f0f0f5;
+}
+
+form {
+    margin: auto;
+    background-color: #e0f7fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    color: #1a237e;
+}
+
+fieldset {
+    border: 2px solid #4db6ac;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #e0f2f1;
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: #004d40;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #1a237e;
+}
+
+input, textarea {
+    margin-top: 4px;
+    padding: 8px;
+    width: calc(100% - 1px);
+    border: 1px solid #4db6ac;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: #4db6ac;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #004d40;
+}
+
+/* Centering the shareable link and its container */
+#shareable-link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#shareable-link {
+    color: #1a237e;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #4db6ac;
+    border-radius: 8px;
+    background-color: #e0f7fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+#resume-display h2 {
+    color: #1a237e;
+}
